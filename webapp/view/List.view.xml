@@ -1,0 +1,77 @@
+<mvc:View
+    controllerName="deloitte.tranning.tranning.controller.List"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="UI5 application"
+    >
+        <Button
+            id="Save"
+            icon="sap-icon://save"
+            text="Accept"
+            type="Critical"
+            press=".openfrag"
+            textDirection="Inherit"
+        />
+
+        <Table
+            id="employeeTable"
+            inset="false"
+            mode="SingleSelectMaster"
+            itemPress="onSelectEmployee"
+            class="sapUiResponsiveMargin"
+            items="{
+                                    path: 'EmployeeModel>/employees',
+                                        sorter: {
+                                            path: 'employeeCode'
+                                                }
+                                    }"
+        >
+            <columns>
+                <Column>
+                    <Text text="Employee Code" />
+                </Column>
+                <Column>
+                    <Text text="First Name" />
+                </Column>
+                <Column>
+                    <Text text="Last Name" />
+                </Column>
+                <Column>
+                    <Text text="Designation" />
+                </Column>
+                <Column>
+                    <Text text="Department" />
+                </Column>
+                <Column>
+                    <Text text="Email" />
+                </Column>
+                <Column>
+                    <Text text="Phone" />
+                </Column>
+                <Column>
+                    <Text text="Location" />
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem
+                    type="Active"
+                    press="onItemPress"
+                >
+                    <cells>
+                        <Text text="{EmployeeModel>employeeCode}" />
+                            <Text text="{EmployeeModel>firstName}" />
+                            <Text text="{EmployeeModel>lastName}" />
+                        <Text text="{EmployeeModel>designation}" />
+                        <Text text="{EmployeeModel>department}" />
+                        <Text text="{EmployeeModel>email}" />
+                        <Text text="{EmployeeModel>phone}" />
+                        <Text text="{EmployeeModel>location}" />
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </Page>
+</mvc:View>

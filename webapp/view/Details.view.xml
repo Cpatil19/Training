@@ -1,0 +1,51 @@
+<mvc:View
+    controllerName="deloitte.tranning.tranning.controller.Details"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page title="Employee Detail">
+        <VBox class="sapUiSmallMargin">
+            <Text
+                text="{EmployeeModel>firstName} {EmployeeModel>lastName}"
+                class="sapMTitle"
+            />
+            <Text text="Department: {EmployeeModel>department}" />
+            <Text text="Designation: {EmployeeModel>designation}" />
+            <Text text="Email: {EmployeeModel>email}" />
+            <Text text="Phone: {EmployeeModel>phone}" />
+            <Text text="Location: {EmployeeModel>location}" />
+
+            <Title
+                text="Employment History"
+                level="H3"
+                class="sapUiMediumMarginTop"
+            />
+            <Table items="{EmployeeModel>employmentHistory}">
+                <columns>
+                    <Column>
+                        <Text text="Company" />
+                    </Column>
+                    <Column>
+                        <Text text="Position" />
+                    </Column>
+                    <Column>
+                        <Text text="Start Date" />
+                    </Column>
+                    <Column>
+                        <Text text="End Date" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{EmployeeModel>company}" />
+                            <Text text="{EmployeeModel>position}" />
+                            <Text text="{EmployeeModel>startDate}" />
+                            <Text text="{EmployeeModel>endDate}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </VBox>
+    </Page>
+</mvc:View>

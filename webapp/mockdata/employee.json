@@ -1,0 +1,287 @@
+{
+    "employees": [
+      {
+        "employeeCode": "E001",
+        "firstName": "John",
+        "lastName": "Doe",
+        "department": "IT",
+        "designation": "Software Engineer",
+        "email": "john.doe@example.com",
+        "phone": "123-456-7890",
+        "location": "NY",
+        "employmentHistory": [
+          {
+            "company": "ABC Corp",
+            "position": "Intern",
+            "startDate": "2013-06-01",
+            "endDate": "2014-12-31"
+          },
+          {
+            "company": "Tech Solutions",
+            "position": "Junior Developer",
+            "startDate": "2015-01-01",
+            "endDate": "2016-06-30"
+          },
+          {
+            "company": "XYZ Ltd",
+            "position": "Software Engineer",
+            "startDate": "2016-07-01",
+            "endDate": "2022-12-31"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E002",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "department": "HR",
+        "designation": "HR Manager",
+        "email": "jane.smith@example.com",
+        "phone": "234-567-8901",
+        "location": "CHI",
+        "employmentHistory": [
+          {
+            "company": "People Inc.",
+            "position": "HR Intern",
+            "startDate": "2013-01-01",
+            "endDate": "2014-12-31"
+          },
+          {
+            "company": "People Inc.",
+            "position": "HR Executive",
+            "startDate": "2015-01-01",
+            "endDate": "2017-06-30"
+          },
+          {
+            "company": "Global HR",
+            "position": "Senior HR Executive",
+            "startDate": "2017-07-01",
+            "endDate": "2019-10-31"
+          },
+          {
+            "company": "Global HR",
+            "position": "HR Manager",
+            "startDate": "2019-11-01",
+            "endDate": "Present"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E003",
+        "firstName": "Michael",
+        "lastName": "Brown",
+        "department": "Finance",
+        "designation": "Financial Analyst",
+        "email": "michael.brown@example.com",
+        "phone": "345-678-9012",
+        "location": "SF",
+        "employmentHistory": [
+          {
+            "company": "Money Matters",
+            "position": "Junior Analyst",
+            "startDate": "2012-03-01",
+            "endDate": "2014-08-31"
+          },
+          {
+            "company": "Money Matters",
+            "position": "Analyst",
+            "startDate": "2014-09-01",
+            "endDate": "2015-12-31"
+          },
+          {
+            "company": "Capital Group",
+            "position": "Financial Analyst",
+            "startDate": "2016-01-01",
+            "endDate": "Present"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E004",
+        "firstName": "Emily",
+        "lastName": "Davis",
+        "department": "Design",
+        "designation": "UI/UX Designer",
+        "email": "emily.davis@example.com",
+        "phone": "456-789-0123",
+        "location": "NY",
+        "employmentHistory": [
+          {
+            "company": "Creative Works",
+            "position": "Graphic Designer",
+            "startDate": "2013-11-01",
+            "endDate": "2017-05-31"
+          },
+          {
+            "company": "Design Hub",
+            "position": "UI Designer",
+            "startDate": "2017-06-01",
+            "endDate": "2019-12-31"
+          },
+          {
+            "company": "Design Hub",
+            "position": "UI/UX Designer",
+            "startDate": "2020-01-01",
+            "endDate": "Present"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E005",
+        "firstName": "David",
+        "lastName": "Wilson",
+        "department": "IT",
+        "designation": "System Administrator",
+        "email": "david.wilson@example.com",
+        "phone": "567-890-1234",
+        "location": "LA",
+        "employmentHistory": [
+          {
+            "company": "Net Solutions",
+            "position": "IT Support",
+            "startDate": "2010-02-01",
+            "endDate": "2012-05-31"
+          },
+          {
+            "company": "Net Solutions",
+            "position": "System Analyst",
+            "startDate": "2012-06-01",
+            "endDate": "2014-12-31"
+          },
+          {
+            "company": "Tech Core",
+            "position": "System Administrator",
+            "startDate": "2015-01-01",
+            "endDate": "2018-12-31"
+          },
+          {
+            "company": "Tech Core",
+            "position": "Senior System Administrator",
+            "startDate": "2019-01-01",
+            "endDate": "Present"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E006",
+        "firstName": "Sophia",
+        "lastName": "Martinez",
+        "department": "Marketing",
+        "designation": "Marketing Specialist",
+        "email": "sophia.martinez@example.com",
+        "phone": "678-901-2345",
+        "location": "CHI",
+        "employmentHistory": [
+          {
+            "company": "AdWorks",
+            "position": "Marketing Intern",
+            "startDate": "2017-07-01",
+            "endDate": "2018-12-31"
+          },
+          {
+            "company": "MarketPro",
+            "position": "Marketing Specialist",
+            "startDate": "2019-01-01",
+            "endDate": "Present"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E007",
+        "firstName": "James",
+        "lastName": "Anderson",
+        "department": "Sales",
+        "designation": "Sales Executive",
+        "email": "james.anderson@example.com",
+        "phone": "789-012-3456",
+        "location": "NY",
+        "employmentHistory": [
+          {
+            "company": "Sales Solutions",
+            "position": "Junior Sales Executive",
+            "startDate": "2014-09-01",
+            "endDate": "2017-03-31"
+          },
+          {
+            "company": "Top Sales",
+            "position": "Sales Executive",
+            "startDate": "2017-04-01",
+            "endDate": "Present"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E008",
+        "firstName": "Olivia",
+        "lastName": "Thomas",
+        "department": "Finance",
+        "designation": "Accountant",
+        "email": "olivia.thomas@example.com",
+        "phone": "890-123-4567",
+        "location": "SF",
+        "employmentHistory": [
+          {
+            "company": "Numbers Co.",
+            "position": "Junior Accountant",
+            "startDate": "2015-06-01",
+            "endDate": "2018-08-31"
+          },
+          {
+            "company": "Finance Experts",
+            "position": "Accountant",
+            "startDate": "2018-09-01",
+            "endDate": "Present"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E009",
+        "firstName": "Liam",
+        "lastName": "Jackson",
+        "department": "IT",
+        "designation": "DevOps Engineer",
+        "email": "liam.jackson@example.com",
+        "phone": "901-234-5678",
+        "location": "LA",
+        "employmentHistory": [
+          {
+            "company": "Cloud Services",
+            "position": "Systems Engineer",
+            "startDate": "2013-04-01",
+            "endDate": "2016-11-30"
+          },
+          {
+            "company": "DevOps Experts",
+            "position": "DevOps Engineer",
+            "startDate": "2016-12-01",
+            "endDate": "Present"
+          }
+        ]
+      },
+      {
+        "employeeCode": "E010",
+        "firstName": "Emma",
+        "lastName": "White",
+        "department": "Design",
+        "designation": "Graphic Designer",
+        "email": "emma.white@example.com",
+        "phone": "012-345-6789",
+        "location": "CHI",
+        "employmentHistory": [
+          {
+            "company": "Creative Studio",
+            "position": "Junior Designer",
+            "startDate": "2014-01-01",
+            "endDate": "2017-07-31"
+          },
+          {
+            "company": "Design Pros",
+            "position": "Graphic Designer",
+            "startDate": "2017-08-01",
+            "endDate": "Present"
+          }
+        ]
+      }
+    ]
+  }
+  
