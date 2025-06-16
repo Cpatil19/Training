@@ -18,15 +18,17 @@ sap.ui.define([
             console.log("📌 onExit: Controller is being destroyed.");
         },
         onSelectEmployee: function (oEvent) {
-            const selectedItem = oEvent.getParameter("listItem");
-            const bindingContext = selectedItem.getBindingContext("EmployeeModel");
-            const employeeData = bindingContext.getObject();
+            // const selectedItem = oEvent.getParameter("listItem");
+            // const bindingContext = selectedItem.getBindingContext("EmployeeModel");
+            // const employeeData = bindingContext.getObject();
 
-            console.log("Navigating to EmployeeProfileDetail for employeeCode:", employeeData.employeeCode);
+            // console.log("Navigating to EmployeeProfileDetail for employeeCode:", employeeData.employeeCode);
 
-            this.getOwnerComponent().getRouter().navTo("TargetDetail", {
-                employeeCode: employeeData.employeeCode
-            });
+            // this.getOwnerComponent().getRouter().navTo("TargetDetail", {
+            //    // employeeCode: employeeData.employeeCode
+            // });
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.navTo("TargetDetail");
         },
     });
 });
